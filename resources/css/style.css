@@ -43,10 +43,6 @@ a{
   color: black;
 }
 
-div{
-  border: 1px solid black;
-}
-
 .content{
   display: flex;
   width: 1232px;
@@ -90,6 +86,29 @@ div{
   text-align: left;
 }
 
+.other-stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+p.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
+}
+
+.other-stories .text-content{
+  height: 250px;
+}
+
 .backwards.img-content{
   background-image: url('../fall.png');
 }
@@ -102,8 +121,19 @@ div{
   background-image: url('../cat.png');
 }
 
-p.narrative{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+.news-bites h3{
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
