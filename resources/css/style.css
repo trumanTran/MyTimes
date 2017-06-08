@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  line-height: 1;
 }
 
 header{
@@ -13,6 +12,8 @@ header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  z-index: 1;
+  background-color: white;
 }
 
 .logo{
@@ -70,4 +71,39 @@ div{
 
 .column.small{
   width: 240px;
+}
+
+.img-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  color: white;
+  text-align: center;
+}
+
+.lead-story .img-content{
+  background-image: url('../MainStory.png');
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.backwards.img-content{
+  background-image: url('../fall.png');
+}
+
+.camera.img-content{
+  background-image: url('../hipster.png');
+}
+
+.cat.img-content{
+  background-image: url('../cat.png');
+}
+
+p.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
